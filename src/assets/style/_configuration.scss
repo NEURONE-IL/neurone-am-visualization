@@ -1,0 +1,21 @@
+
+.configuration{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 56rem;
+    
+
+
+}
+
+.configuration-field{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%
+}

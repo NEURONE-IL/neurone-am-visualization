@@ -1,0 +1,71 @@
+// .detail-general{
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+
+// }
+.detail-parameters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0rem;
+  width: 100%;
+
+  overflow-y: scroll;
+}
+.metric-parameters {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parameters-title {
+  font-size: 2rem;
+}
+.metric-options {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  overflow-y: scroll;
+  max-height: 70%;
+  // margin-left: 20px;
+  // overflow-y: scroll;
+  // max-height: 50rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  //border: solid rgba(0, 0, 0, 0.1) 2px;
+  //padding: 4rem;
+
+  .metric-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    min-width: 5rem;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.filter-parameters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.query-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+
+  margin-top: 5rem;
+
+}

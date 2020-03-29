@@ -1,0 +1,64 @@
+
+
+.container-componentes{
+
+  display: flex;
+  flex-direction: row;
+}
+.detail-general{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row;
+    width: 75%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: solid rgba(0, 0, 0, 0.1) 2px;
+    max-height: 56rem;
+    overflow-y:scroll;
+
+    
+}
+.container-general{
+
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  max-height: 56rem;
+
+  
+}
+
+
+.button-contaner{
+
+  margin-top: 3rem;
+  text-align: right;
+}
+
+
+.participants-container{
+
+  display:flex;
+  margin-left: 20px;
+  overflow-y: scroll;
+  max-height: 50rem;
+  width: 90%;
+  flex-wrap: wrap;
+  border: solid rgba(0, 0, 0, 0.1) 2px;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+
+
+  .participant{
+
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

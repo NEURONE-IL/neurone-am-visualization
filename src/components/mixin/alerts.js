@@ -1,0 +1,22 @@
+export default {
+  methods:{
+    alertError(text){
+      this.$notify({
+        type:'error',
+        text:text
+      })
+    },
+    alertSuccess(text){
+      this.$notify({
+        type:'success',
+        text:text
+      })
+    },
+    alertWarning(text){
+      this.$notify({
+        type:'warning',
+        text:text
+      })
+    }
+  }
+}

@@ -1,0 +1,140 @@
+
+// $main-color:#37c6f5;
+// $secondary-color:#42b983;
+// $terciary-color:#e5e5e5;
+// $text-color:#222;
+// $body-width:56rem;//56rem;
+
+
+$main-color:rgba(0,0,0,0.5);
+$bar-color:#f4f4f4;
+$secondary-color:#3597ec;
+$terciary-color:white;
+$delete-color:#db2700;
+
+$text-color:#222;
+button{
+  font-size: 1rem;
+}
+.btn{
+  transition: 300ms;
+}
+.btn-link{
+  background: none;
+  border: none;
+  font-weight: bold;
+  //color:$secondary-color;
+}
+.btn-link:hover{
+  opacity: 0.7
+}
+
+.btn-small{
+
+  font-size: 1rem;
+  color: $text-color;
+  text-align: right;
+
+}
+.btn-small-small{
+
+  font-size: 0.7rem;
+  color: $text-color;
+  text-align: right;
+
+}
+.btn-small-big{
+
+  font-size: 1.5rem;
+  color: $text-color;
+  text-align: right;
+
+}
+
+.btn-finish{
+
+  background: none;
+  border: none;
+  //border-radius: 5rem;
+  //border: 2px solid;
+  font-size: 2rem;
+  text-align: right;
+  color: $text-color;
+  font-weight: bold;
+}
+
+// .btn-plus{
+
+//   font-size: 1rem;
+//   height: 1.5rem;
+//   width: 1.5rem;
+
+//   text-align: center;
+//   background: #1F75Fe;
+  
+//   color: white;
+// }
+
+
+.btn-primary{
+  // padding: 0.5rem;
+  padding:0.4rem 3rem 0.4rem 3rem;
+  color: $terciary-color;
+  background: $secondary-color;
+  border-color: $secondary-color;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  // height: 50%;
+  // margin:auto 0;
+}
+.btn-secondary{
+  // padding: 0.5rem;
+  padding:0.2rem 3rem 0.2rem 3rem;
+  color:  $secondary-color;
+  background:$terciary-color;
+  border-color: $secondary-color;
+  border-radius: 0.4rem;
+  margin-right: 2rem;
+  font-weight: bold;
+  border:2px 2px 2px 2px;
+  // height: 50%;
+  // margin:auto 0;
+}
+.btn-secondary:hover{
+  color:$terciary-color;
+  background:$secondary-color;
+}
+.btn-primary:hover{
+  color:$secondary-color;
+  background:$terciary-color ;
+}
+
+.btn-delete{
+  color: $delete-color;
+  background:$terciary-color;
+  border-color: $delete-color;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  // border:2px 2px 2px 2px;
+  margin-top:3rem;
+}
+
+.btn-delete:hover{
+  color: $terciary-color;
+  background:$delete-color;
+}
+
+.btn-delete-participant{
+  color: $delete-color;
+  background:$terciary-color;
+  border-color: $delete-color;
+  border-radius: 0.4rem;
+  font-weight: bold;
+
+  // border:2px 2px 2px 2px;
+}
+
+.btn-delete-participant:hover{
+  color: $terciary-color;
+  background:$delete-color;
+}
