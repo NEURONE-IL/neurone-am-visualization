@@ -35,6 +35,9 @@ export default {
         "activebm",
         "score",
         "pagestay",
+        "writingtime",
+        "modquery",
+        "entropy"
         // "mousecliks",
         // "mousecoordinates",
         // "scrollmoves",

@@ -104,10 +104,10 @@ export default {
           return "";
           break;
         case "1":
-          return principal > this.limit ? "background-color: red;" : "";
+          return principal >= this.limit ? "background-color: red;" : "";
           break;
         case "2":
-          return principal < this.limit ? "background-color: red;" : "";
+          return principal <= this.limit ? "background-color: red;" : "";
         default:
           return "";
           break;
