@@ -1,6 +1,6 @@
 # Neurone AM Visualization
 
-Neurone-am-visualization is part of the Neurone-AM (active monitoring) solution, compose of [neurone-am-coordinator](https://github.com/NEURONE-IL/neurone-am-coordinator.git) and [neurone-am-connector](https://github.com/NEURONE-IL/neurone-am-connector.git) also. All three components interact with each other to deliver real-time updated metrics over a persistent connection and provides tools for monitoring all users of [NEURONE](https://github.com/NEURONE-IL/neurone) search engine.
+Neurone-am-visualization is part of the Neurone-AM (active monitoring) solution, compose of [neurone-am-coordinator](https://github.com/NEURONE-IL/neurone-am-coordinator.git) and [neurone-am-connector](https://github.com/NEURONE-IL/neurone-am-connector.git) also. All three components interact with each other to deliver real-time updated metrics over a persistent connection and provides tools for monitoring all users of [NEURONE](https://github.com/NEURONE-IL/neurone) search engine. To deploy all components together go to [neurone-am-deployment](https://github.com/NEURONE-IL/neurone-am-deployment.git) repository.
 
 Visualization component is a Front-end prototype client that allow to a observer visualize the behavior and performance of all users. Therefore, through this component differents metrics are displayed and actualized in a defined update interval. This component interact directly with neurone-am-coordinator through subscription and consumption of previously selected metrics. 
 
