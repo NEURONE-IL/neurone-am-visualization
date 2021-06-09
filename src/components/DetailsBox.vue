@@ -38,8 +38,8 @@
       </div>
       <div v-if="this.results.length>0" class="metric-options">
         <div v-for="(result,i) in results" :key="i" class="metric-container">
-          <div class="option-continer">{{result.metric}}</div>
-          <div style=" font-weight: bold;">{{result[result.metric]}}</div>
+          <div class="option-continer">{{result.type}}</div>
+          <div style=" font-weight: bold;">{{result.value}}</div>
         </div>
       </div>
     </div>
@@ -170,7 +170,7 @@ export default {
         .then(response => {
           let results = response.data;
           results.map(r => {
-            r[r.metric] = Math.round(r[r.metric] * 100) / 100;
+            r["value"] = Math.round(r["value"] * 100) / 100;
           });
           this.results = results;
         });
@@ -184,7 +184,7 @@ export default {
         .then(response => {
           console.log("response", response.data);
           let actualTime = Date.now();
-          let initTime = response.data.inittime;
+          let initTime = response.data.value;
           let seconds = Math.round((actualTime - initTime) / 1000);
           this.max = seconds;
           this.value = [0, seconds];

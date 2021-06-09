@@ -44,7 +44,7 @@
             :results="participant.results"
             :principal="principal"
             :option="option"
-            :limit="limit"
+            :limit="Number(limit)"
           ></participant-box>
         </div>
       </div>
